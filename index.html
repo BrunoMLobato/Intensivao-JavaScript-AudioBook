@@ -10,12 +10,12 @@
 </head>
 <body>
     <div class="container-aplicativo">
-        <img src="./images/dom-casmurro.jpeg" alt="capa-do-livro">
+        <img src="./images/book_dom-casmurro.jpeg" alt="capa-do-livro">
         <div id="informacoes-faixa">
             <p id="capitulo"> Capítulo 1 </p>
             <p id="nome-autor"> Machado de Assis </p>
         </div>
-        <audio id="audio-capitulo" src="./books/dom-casmurro/1.mp3"></audio>
+        <audio id="audio-capitulo" src="./books/Dom-Casmurro/dom_casmurro_1_machadodeassis.mp3"></audio>
         <div id="container-botoes">
             <button id="anterior" class="bi bi-skip-backward-fill"></button>
             <buttom id="play-pause" class="bi bi-play-circle-fill"></buttom>
@@ -23,19 +23,41 @@
         </div>
     </div>
 
+    <div class="container-galeria">
+        <div class="galeria">
+            <p id="titulo-galeria"> LIVROS DISPONÍVEIS </p>
+            <div class="offer__scroll-container">
+                <div class="offer__list">
+                    <section class="offer__list-item">
+                        <!-- CARD 1 -->
+                        <a href="#" class="cards" data-audio="./books/Dom-Casmurro/dom_casmurro_1_machadodeassis.mp3">
+                            <div class="cards card1">
+                                <img src="./images/book_dom-casmurro.jpeg" alt="primeiro-livro" />
+                                <span> Dom Casmurro </span>
+                            </div>
+                        </a>
 
+                        <!-- CARD 2 -->
+                        <a href="#" class="cards" data-audio="./books/O-Alienista/o_alienista_1_machadodeassis.mp3">
+                            <div class="cards card2">
+                                <img src="./images/book_oalienista.jpg" alt="segundo-livro" />
+                                <span> O Alienista </span>
+                            </div>
+                        </a>
+
+                        <!-- CARD 3 -->
+                        <a href="#" class="cards" data-audio="./books/Ressureição/ressureicao_1_machadodeassis.mp3">
+                            <div class="cards card3">
+                                <img src="./images/book_ressureição.jpg" alt="terceiro-livro" />
+                                <span> Ressureição </span>
+                            </div>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="./script.js"></script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

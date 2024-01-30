@@ -36,7 +36,7 @@ function capituloAnterior() {
     } else {
         capitulo -= 1;
     }
-    audio.src = "books/dom-casmurro/" + capitulo + ".mp3";
+    audio.src = "/books/Dom-Casmurro/" + "dom_casmurro_" + capitulo + "_machadodeassis" + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
     tocarFaixa();
 }
@@ -47,12 +47,30 @@ function proximoCapitulo() {
     } else {
         capitulo = 1;
     }
-    audio.src = "books/dom-casmurro/" + capitulo + ".mp3";
+    audio.src = "/books/Dom-Casmurro/" + "dom_casmurro_" + capitulo + "_machadodeassis" + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
     tocarFaixa();
 }
+
+
+function atualizarCapaEAutor(capaUrl) {
+    const capaLivro = document.querySelector(".container-aplicativo img");
+    const nomeAutor = document.getElementById("nome-autor");
+
+    capaLivro.src = capaUrl;
+    nomeAutor.innerText = "Machado de Assis"; 
+}
+
+document.querySelectorAll(".cards").forEach(card => {
+    card.addEventListener("click", function(event) {
+        event.preventDefault();
+        const capaUrl = this.querySelector("img").src;
+        atualizarCapaEAutor(capaUrl);
+    });
+});
 
 botaoPlayPause.addEventListener("click", tocarOuPausarFaixa);
 botaoCapituloAnterior.addEventListener("click", capituloAnterior);
 botaoProximoCapitulo.addEventListener("click", proximoCapitulo);
 audio.addEventListener("ended", proximoCapitulo);
+
