@@ -5,7 +5,11 @@ No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag 
 
 # :clipboard: **Funcionalidades**
 
-:heavy_check_mark: `AudioBook do Primeiro Livro (Dom Casmurro) Funcionando disponível do capítulo 1 ao 10.`
+:heavy_check_mark: `AudioBook do Primeiro Livro (Dom Casmurro) de Machado de Assis. Funcionando, disponível do capítulo 1 ao 10.`
+
+:heavy_check_mark: `AudioBook do Segundo Livro (Cinco Minutos) de José de Alencar. Funcionando, disponível do capítulo 1 ao 10.`
+
+:heavy_check_mark: `AudioBook do Terceiro Livro (Ressurreição) de Machado de Assis. Funcionando, disponível do capítulo 1 ao 10.`
 
 :heavy_check_mark: `Galeria e Cards Funcionando`
 
