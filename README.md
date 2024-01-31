@@ -9,7 +9,9 @@ No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag 
 
 :heavy_check_mark: `Galeria e Cards Funcionando`
 
-:hourglass_flowing_sand: `Arrumar áudio para cada livro respectivos da galeria`
+:heavy_check_mark: `Arrumar áudio para cada livro respectivos da galeria [Resolvido!]`
+
+:hourglass_flowing_sand: `Adicionar futuramente mais livros na Galeria`
 
 :hourglass_flowing_sand: `Melhorar o Design`
 
