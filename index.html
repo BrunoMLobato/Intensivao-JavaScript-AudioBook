@@ -6,16 +6,16 @@
     <link rel="shortcut icon" href="./images/logo_trial.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>AudioBook - Umbra</title>
+    <title> AudioBook - Umbra </title>
 </head>
 <body>
     <div class="container-aplicativo">
-        <img src="./images/book_dom-casmurro.jpeg" alt="capa-do-livro">
+        <img id="imagemLivro" src="./images/book_dom-casmurro.jpeg" alt="capa-do-livro">
         <div id="informacoes-faixa">
             <p id="capitulo"> Capítulo 1 </p>
-            <p id="nome-autor"> Machado de Assis </p>
+            <p id="nome_autor"> Machado de Assis </p>
         </div>
-        <audio id="audio-capitulo" src="./books/Dom-Casmurro/dom_casmurro_1_machadodeassis.mp3"></audio>
+        <audio id="audio-capitulo" src="./books/Dom-Casmurro/1.mp3"></audio>
         <div id="container-botoes">
             <button id="anterior" class="bi bi-skip-backward-fill"></button>
             <buttom id="play-pause" class="bi bi-play-circle-fill"></buttom>
@@ -29,29 +29,31 @@
             <div class="offer__scroll-container">
                 <div class="offer__list">
                     <section class="offer__list-item">
+
                         <!-- CARD 1 -->
-                        <a href="#" class="cards" data-audio="./books/Dom-Casmurro/dom_casmurro_1_machadodeassis.mp3">
-                            <div class="cards card1">
+                        <a href="#" class="cards" data-audio="./books/Dom-Casmurro/1.mp3">
+                            <div onClick="PrimeiroCard()"  class="cards card1">
                                 <img src="./images/book_dom-casmurro.jpeg" alt="primeiro-livro" />
                                 <span> Dom Casmurro </span>
                             </div>
                         </a>
 
                         <!-- CARD 2 -->
-                        <a href="#" class="cards" data-audio="./books/O-Alienista/o_alienista_1_machadodeassis.mp3">
-                            <div class="cards card2">
-                                <img src="./images/book_oalienista.jpg" alt="segundo-livro" />
-                                <span> O Alienista </span>
+                        <a href="#" class="cards" data-audio="./books/O-Alienista/1.mp3">
+                            <div onclick="SegundoCard()" class="cards card2">
+                                <img src="./images/book_cinco_minutos.jpg" alt="segundo-livro" />
+                                <span> Cinco Minutos </span>
                             </div>
                         </a>
 
                         <!-- CARD 3 -->
-                        <a href="#" class="cards" data-audio="./books/Ressureição/ressureicao_1_machadodeassis.mp3">
-                            <div class="cards card3">
-                                <img src="./images/book_ressureição.jpg" alt="terceiro-livro" />
+                        <a href="#" class="cards" data-audio="./books/Ressureicao/1.mp3">
+                            <div onClick="TerceiroCard()" class="cards card3">
+                                <img src="./images/book_ressureicao.jpg" alt="terceiro-livro" />
                                 <span> Ressureição </span>
                             </div>
                         </a>
+                        
                     </section>
                 </div>
             </div>

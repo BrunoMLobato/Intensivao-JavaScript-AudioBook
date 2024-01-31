@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(#121212, #0269b6, #121212);
-  height: 100vh;
-  width: 100vw;
+  height: 98vh;
+  width: 98vw;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -78,7 +78,6 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
 }
 
 .offer__list-item {
@@ -86,7 +85,6 @@ button {
   flex-direction: row;
   gap: 50px;
   margin: 50px 50px;
-
 }
 
 .cards {
