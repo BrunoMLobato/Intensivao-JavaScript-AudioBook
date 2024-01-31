@@ -11,13 +11,13 @@ No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag 
 
 :heavy_check_mark: `AudioBook do Terceiro Livro (Ressurreição) de Machado de Assis. Funcionando, disponível do capítulo 1 ao 10.`
 
-:heavy_check_mark: `Galeria e Cards Funcionando`
+:heavy_check_mark: `Galeria e Cards Funcionando.`
 
-:heavy_check_mark: `Arrumar áudio para cada livro respectivos da galeria [Resolvido!]`
+:heavy_check_mark: `Arrumar áudio para cada livro respectivos da galeria [Resolvido!].`
 
-:hourglass_flowing_sand: `Adicionar futuramente mais livros na Galeria`
+:hourglass_flowing_sand: `Adicionar futuramente mais livros na Galeria.`
 
-:hourglass_flowing_sand: `Melhorar o Design`
+:hourglass_flowing_sand: `Melhorar o Design.`
 
 <br>
 <div>
