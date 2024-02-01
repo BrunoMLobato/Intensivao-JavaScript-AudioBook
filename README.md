@@ -1,6 +1,6 @@
-# :coffee:  Intensivão de JavaScript!
+# :coffee:  Intensivão de JavaScript! [AULA 1].
 
-No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag Programação. O projeto a ser desenvolvido consistirá na criação de um AudioBook, utilizando JAVASCRIPT, além das linguagens de marcação HTML e CSS. O intensivão tem como propósito aprender conceitos do básico ao avançado com o JAVASCRIPT.
+No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag Programação. O projeto a ser desenvolvido consiste na criação de um AudioBook, utilizando JAVASCRIPT, além das linguagens de marcação HTML e CSS. O intensivão tem como propósito aprender conceitos do básico ao avançado com o JAVASCRIPT.
 <br>
 
 # :clipboard: **Funcionalidades**
@@ -18,8 +18,9 @@ No dia 29/01/2024, Concluí um intensivão de JAVASCRIPT oferecido pela HashTag 
 :hourglass_flowing_sand: `Adicionar futuramente mais livros na Galeria.`
 
 :hourglass_flowing_sand: `Melhorar o Design.`
-
 <br>
+
+# 🌐 **Tecnologias Incrementadas**
 <div>
  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
